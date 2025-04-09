@@ -1,0 +1,14 @@
+train:
+  max_epoch: 150
+  training_max_iter: 3500
+  val_max_iter: 500
+  scheduler_interval: 1
+  snapshot_interval: 1
+  batch_size: 1
+  num_workers: 8
+  corr_sel: 128
+  neighbor_sel: 64
+  initial_thres: 0.2
+  thres_decay: 0.01
+  min_coarse_corr: 200
+  patch_overlap_thres: 0.0
