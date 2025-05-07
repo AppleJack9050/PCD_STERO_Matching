@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from .KPConv.models import KPEncoder, KPDecoder
 import cpp_wrappers.grouping.lib.grouping_cuda as grouping
+from utils import knn
 
 class ResNet_PCD(nn.Module):
     """
